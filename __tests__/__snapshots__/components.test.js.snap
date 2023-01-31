@@ -1,0 +1,158 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components render correctly has 1 child 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+      },
+      Object {
+        "height": 80,
+      },
+      undefined,
+    ]
+  }
+>
+  <ActivityIndicator
+    size="small"
+  />
+</View>
+`;
+
+exports[`Components render correctly renders loading view component correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+      },
+      Object {
+        "height": 80,
+      },
+      undefined,
+    ]
+  }
+>
+  <ActivityIndicator
+    size="small"
+  />
+</View>
+`;
+
+exports[`Components render correctly renders page component correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#ffffff",
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`Components render correctly renders usercard component correctly 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#5A5A5A",
+      "borderRadius": 10,
+      "height": 120,
+      "marginHorizontal": 10,
+      "marginVertical": 10,
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    accessibilityIgnoresInvertColors={true}
+    style={
+      Object {
+        "borderRadius": 10,
+        "height": "100%",
+        "overflow": "hidden",
+      }
+    }
+  >
+    <Image
+      resizeMode="cover"
+      source={
+        Object {
+          "uri": undefined,
+        }
+      }
+      style={
+        Array [
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          },
+          Object {
+            "height": "100%",
+            "width": undefined,
+          },
+          undefined,
+        ]
+      }
+    />
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "padding": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 25,
+            "fontWeight": "bold",
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 25,
+            "fontWeight": "bold",
+            "marginLeft": 5,
+          }
+        }
+      />
+    </View>
+    <Text
+      style={
+        Object {
+          "bottom": 5,
+          "color": "white",
+          "fontSize": 15,
+          "fontWeight": "bold",
+          "left": 10,
+          "position": "absolute",
+        }
+      }
+    />
+  </View>
+</View>
+`;
